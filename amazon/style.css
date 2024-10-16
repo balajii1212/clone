@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+#navbar{
+    background-color:#0f1111;
+    height: 50px;
+    width:1620px;
+    
+    display: flex;
+    align-items: center; 
+    z-index: 1;
+    background-size: cover;
+    justify-content: space-evenly;
+    margin-left:-79px;
+    top:-0px;
+    margin-top: -20px;
+    /* justify-content: space-evenly; */
+
+}
+
+.fir{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left:15px;
+}
+.sec{
+    font-size: 1rem;
+    margin-left: 3px;
+    color:white
+}
+.lo{
+    color: white;
+    display: flex;
+} 
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+}
+.sicon{
+    background-color: #f08804;
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+.sselect{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border:none;
+}
+.sinput{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.cart{
+    color:white;
+}
+/* .nav2{
+    margin-top:150px;
+    margin-left: 100px;
+    background-color: #131a22;
+    height:60px;
+    width: ;
+} */
+.border{
+    border:2px,solid,transparent;
+}
+.border:hover{
+    border:2px,solid,white
+}
+.country{
+    display: flex;
+    
+    color:white;
+}
+.namess{
+    color:white;
+    font-size:16px;
+    font-family: arial;
+}
+.acc{
+    font-size: 12px;
+    font-weight: 300;
+}
+.cart{
+    display: flex;
+    font-size:22px;
+}
+.navv{
+   background-color: #232f3e;
+   display:flex;
+   align-items: center;
+   background-size: cover;
+   color: white;
+   height: 39px;
+
+   
+}
+p{
+    margin-left:20px;
+}
+.logo{
+    background-image: url("amazon.png");
+    mix-blend-mode:difference;
+    height:30px;
+    width:100px;
+    border: #0f1111;
+   background-size: cover;
+}
+button{
+    background-color:#f08804;
+}
+
+header{
+    margin-bottom: 0px;
+
+}
+footer{
+    background-color:#131a22;
+    color:white;
+    font-family:Arial,sans-serif;
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: px;
+    margin-right: 0px;
+    
+}
+/* pre{
+    margin-left: 00px;
+    font-family:12px,Arial,sans-serif;
+} */
+#foot{
+    margin-left:0px;
+}
+#foot1{
+    background-color:#232f3e;
+    height:50px;
+    width:1900px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: -190px;
+   font-size: 13px;
+}
+#foot2{
+    margin-top: -29px;
+    height: 350px;
+    width: 2000px;
+    background-color:#192432;
+    display: flex;
+   justify-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin-left: 00px;
+   font-size: 14px;
+   font-family: arial,sans-serif;
+    color:#dddddd;
+}
+#font{
+    color:#999999;
+    display:inline;
+}
+#font2{
+    color:#999999;
+    display:inline;
+}
+
+#banner{
+    background-color:white;
+    background-image: url(bbg4.webp);
+    
+    
+    height:700px;
+    top:-100px;
+    position:relative;
+    z-index:-6;
+    display: flex;
+    background-size: cover;
+    white-space: nowrap;
+    background-size: cover;
+    overflow: auto;
+    
+} 
+
+
+
+
+#box1{
+    /* position: relative; */
+    background-color:black;
+    margin-top:-420px;
+    margin-left:15px;
+    height: 350px;
+    width:350px;
+    background-image:url("devices.jpg");
+    background-size:cover;
+}
+
+#box2{
+    background-color:black;
+    height:350px;
+    width:350px;
+    margin-left:400px;
+    margin-top: -350px;
+    background-image:url("men.avif");
+    background-size:cover;
+    
+}
+#box3{
+    background-color:black;
+    margin-top:-350px;
+    margin-left:785px;
+    height:350px;
+    width:350px;
+    background-image:url("women1.jpg");
+    background-size:cover;
+}
+
+#box4{
+    background-color:black;
+    margin-top:-350px;
+    margin-left:1170px;
+    height:350px;
+    width:340px;
+    background-image:url("offer.avif");
+    background-size:cover;
+}
+div.scroll-container {
+    background-color:white;
+    overflow:auto;
+    white-space:nowrap;
+    padding: 20px;
+  }
+  
+  div.scroll-container img {
+    height:300px;
+    position:-ms-page;
+    padding: 5px;
+  }
+b{
+    margin-left:500px;
+}
+
+

@@ -1,0 +1,58 @@
+#new{
+    margin-top:250px;
+    margin-left:650px;
+    
+}
+#login{
+    
+    border:2px,solid,black;
+    font-family:Tahoma;
+    font-size: larger;
+   
+}
+
+#back{
+    margin-top: -929px;
+    margin-left: -391px;
+    position: relative;
+    z-index: -1;
+    background-size:auto;
+    filter: blur(10px);
+   
+}
+
+button{
+    background-color:transparent;
+    border-color: black;
+    margin-left:60px;
+}
+#a{
+    
+   height: 300px;
+   width: 300px;
+   border:2px,solid,black;
+   position: relative;
+   margin-top: -500px;
+   margin-left:600px;
+   z-index: -1;
+   
+}
+div.scroll-container {
+    background-color:white;
+    overflow:auto;
+    white-space:nowrap;
+    padding: 20px;
+  }
+  
+  div.scroll-container img {
+    height:300px;
+    position:-ms-page;
+    padding: 5px;
+  }
+button:hover{
+    background-color:blue;
+    color:white;
+    transform: scale(2,1); 
+    transition:all 1s ease-in;
+    /* transform:rotate(30deg); */
+}
